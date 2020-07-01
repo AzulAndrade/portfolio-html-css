@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap -->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <title>Azul Andrade</title>
+</head>
+
+<body>
+    <!-- Portada con Header -->
+    <div class="header">
+        <div class="header-body">
+            <div class="overlay"> </div>
+
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(0, 0, 0, 0.2);">
+                <a class="navbar-brand" href="#">
+                    <img class="logo" src="/img/blue.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://azulandrade.netlify.app/">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/AzulAndrade" target="_blank">Github</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-content">
+                <div class="about-me">
+                    <h2 class="who">Hi, I'm Azul.</h2>
+                    <h1 class="what">I'm a frontend developer from Argentina.</h1>
+                </div>
+                <div class="contact-info">
+                    <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false"
+                        autocomplete="off" onClick="document.getElementById('contact').scrollIntoView();">
+                        Contact me! </button>
+                    <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false"
+                        autocomplete="off" onClick="document.getElementById('about').scrollIntoView();">
+                        Read more </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="row">
+            <div class="image ml">
+                <img class="about-img" src="/img/AzulAndrade.jpg">
+            </div>
+            <div class="description ml">
+                <h3 class="description-title">Who am I</h3>
+                <div class="underline"> </div>
+                <p class="who-am-i">I am Azul Andrade, 24 years old. I'm a Systems Engineer, working as a Frontend
+                    developer.
+                    Hard-working, with high attention to detail, who loves to code, build great products in the least
+                    amount of time and help businesses succeed with their goals. I have designed and developed
+                    several mobile and web-apps with React JS.
+                    Passionate about web development and UX-UI design.</p>
+
+                <div><button type="button" class="btn btn-primary" aria-pressed="false" autocomplete="off"> <a
+                            style="color: aliceblue;" href="/img/CV Azul Andrade.pdf" target="_blank"
+                            download="Azul Andrade CV">
+                            Download CV </a></button></div>
+            </div>
+        </div>
+    </div>
+    <div class="skills">
+        <div class="languages">
+            <h2 style="color: #fff;">Languages</h2>
+            <div class="underline"> </div>
+        </div>
+        <div class="row">
+            <div class="language-card">
+                <div class="card card1">
+                    <div class="card-body">
+                        <h3 class="card-title">Spanish</h3>
+                        <h5 class="card-text">Mother tongue.</h5>
+
+                    </div>
+                </div>
+            </div>
+            <div class="language-card">
+                <div class="card card2">
+                    <div class="card-body">
+                        <h3 class="card-title">English</h3>
+                        <h5 class="card-text">C1 level.</h5>
+
+                    </div>
+                </div>
+            </div>
+            <div class="language-card ">
+                <div class="card card3">
+                    <div class="card-body">
+                        <h3 class="card-title">German</h3>
+                        <h5 class="card-text">B2 level.</h5>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skill-bars" id="skills">
+        <div class="languages">
+            <h2 style="color: #fff;">Tech skills</h2>
+            <div class="underline"> </div>
+        </div>
+        <div class="techskills">
+            <ul class="skill-list">
+                <li class="skill">
+                    <h3 style="font-size: 1.5rem;">HTML5</h3>
+                    <progress class="skill-1" max="100" value="70">
+                    </progress>
+                </li>
+                <li class="skill">
+                    <h3 style="font-size: 1.5rem;">CSS</h3>
+                    <progress class="skill-2" max="100" value="65">
+                    </progress>
+                </li>
+                <li class="skill">
+                    <h3 style="font-size: 1.5rem;">REACT</h3>
+                    <progress class="skill-3" max="100" value="35">
+                    </progress>
+                </li>
+            </ul>
+        </div>
+        <div class="techskills">
+            <ul class="skill-list">
+                <li class="skill">
+                    <h3 style="font-size: 1.5rem;">JAVASCRIPT</h3>
+                    <progress class="skill-4" max="100" value="50">
+                    </progress>
+                </li>
+                <li class="skill">
+                    <h3 style="font-size: 1.5rem;">SQL</h3>
+                    <progress class="skill-5" max="100" value="35">
+                    </progress>
+                </li>
+                <li class="skill">
+                    <h3 style="font-size: 1.5rem;">UX/UI design</h3>
+                    <progress class="skill-6" max="100" value="25">
+                    </progress>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="education">
+        <div class="education-table">
+            <section class="colorlib-education" data-section="education">
+                <div class="row">
+                    <div class="languages">
+                        <h2 style="color: #fff;">Education</h2>
+                        <div class="underline"> </div>
+                    </div>
+                    <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                        <div class="fancy-collapse-panel">
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingOne">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                                                aria-expanded="true" aria-controls="collapseOne">Systems Engineering
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+                                        aria-labelledby="headingOne">
+                                        <div class="panel-body">
+                                            <h4 style="margin-bottom: 20px;">2015-2019</h4>
+                                            <div class="underline"> </div>
+                                            <h6>Cordoba Argentina</h6>
+                                            <strong>Catholic University of Cordoba</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingTwo">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                                href="#collapseTwo" aria-expanded="false"
+                                                aria-controls="collapseTwo">Computer Science Student
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                                        aria-labelledby="headingTwo">
+                                        <div class="panel-body">
+                                            <h4 style="margin-bottom: 20px;">August 2018-December 2018</h4>
+                                            <div class="underline"> </div>
+                                            <h6>San Francisco, CA</h6>
+                                            <strong>University of San Francisco</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingThree">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                                href="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree">Tools for Entrepreneurship
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                                        aria-labelledby="headingThree">
+                                        <div class="panel-body">
+                                            <h4 style="margin-bottom: 20px;">August 2017-December 2017</h4>
+                                            <div class="underline"> </div>
+                                            <h6>Cordoba Argentina</h6>
+                                            <strong>Catholic University of Cordoba</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingFive">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                                href="#collapseFive" aria-expanded="false"
+                                                aria-controls="collapseFive">Neuro-Linguistic Programming
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
+                                        aria-labelledby="headingFive">
+                                        <div class="panel-body">
+                                            <h4 style="margin-bottom: 20px;">March 2018-Present</h4>
+                                            <div class="underline"> </div>
+                                            <h6>Cordoba, Argentina</h6>
+                                            <strong>Accresio</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingSix">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                                href="#collapseSix" aria-expanded="false"
+                                                aria-controls="collapseSix">React - La Guía Completa: Hooks
+                                                Context Redux MERN +15 Apps
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel"
+                                        aria-labelledby="headingSix">
+                                        <div class="panel-body">
+                                            <strong>Udemy</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="get-in-touch" id="contact">
+        <div class="row">
+            <div class="languages">
+                <h2 style="color: #fff;">Contact me</h2>
+                <div class="underline"> </div>
+            </div>
+            <form id="contactForm" class="contactForm" onsubmit="return validate()" action="contact.php" method="post">
+
+                <input class="formInput" type="text" id="name" name="name" autocorrect="off" placeholder="Name" />
+                <input class="formInput" type="email" name="email" id="email" autocapitalize="off" autocorrect="off"
+                    placeholder="Email" />
+                <textarea class="formInput" name="message" id="message" placeholder="Message"></textarea>
+
+                <br>
+                <input style="color: #737374;" class="submitForm" type="reset" value="Clear your message" />
+                <input style="color: #737374;" class="submitForm" type="submit" value="Send" />
+
+            </form>
+        </div>
+    </div>
+    <!-- Site footer -->
+    <footer class="site-footer">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Developed by <a href="#">Azul Andrade</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="github" href="https://github.com/AzulAndrade" target="_blank"><i
+                                    class="fa fa-github"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-briefcase"></i></a></li>
+                        <li><a class="linkedin" href="https://www.linkedin.com/in/azul-andrade/" target="_blank"><i
+                                    class="fa fa-linkedin"></i></a></li>
+                        <li><a class="dribbble" href="mailto:azulandrade1@gmail.com"><i
+                                    class="fa fa-envelope-open"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
