@@ -17,13 +17,13 @@ html {
   background-size: contain;
   background-position: center center;
   background-attachment: fixed;
-  height: 620px;
+  height: 720px;
   z-index: 1;
 }
 
 /* Capa oscura entre la foto y el texto */
 .overlay {
-  height: 620px;
+  height: 720px;
   background: rgba(0, 0, 0, 0.8);
   position: absolute;
   top: 0;
@@ -533,6 +533,10 @@ textarea {
   .about {
     height: 1600px;
   }
+  .header {
+    height: 820px;
+    background-size: contain;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -560,6 +564,7 @@ textarea {
     z-index: 2;
     padding-left: 0px;
     margin: auto;
+    width: 100%;
   }
   .header-content .who,
   .what {
